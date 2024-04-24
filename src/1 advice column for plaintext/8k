@@ -1,0 +1,29 @@
+8K K == 9 (64 bytes)
+
+Proof created [2.502962715s]
+Proof size [16.5625 kB]
+Proof verified [1.241757266s]
+
+8K K == 10 (128 bytes)
+
+Proof created [2.312511712s]
+Proof size [8.5625 kB]
+Proof verified [1.074570512s]
+
+8K K == 11 (256 bytes)
+
+Proof created [2.174355456s]
+Proof size [4.65625 kB]
+Proof verified [917.472183ms]
+
+8K K == 12 (512 bytes)
+
+Proof created [2.382361183s]
+Proof size [2.65625 kB]
+Proof verified [881.804686ms]
+
+8K K == 13 (1024 bytes)
+
+Proof created [2.901692493s]
+Proof size [1.65625 kB]
+Proof verified [805.020432ms]

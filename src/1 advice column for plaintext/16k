@@ -1,0 +1,29 @@
+16K K == 9 (64 bytes)
+
+Proof created [4.613590038s]
+Proof size [32.375 kB]
+Proof verified [2.466400162s]
+
+16K K == 10 (128 bytes)
+
+Proof created [4.088791573s]
+Proof size [16.46875 kB]
+Proof verified [2.043159649s]
+
+16K K == 11 (256 bytes)
+
+Proof created [3.838619614s]
+Proof size [8.5625 kB]
+Proof verified [1.765973955s]
+
+16K K == 12 (512 bytes)
+
+Proof created [4.042475208s]
+Proof size [4.65625 kB]
+Proof verified [1.871801492s]
+
+16K K == 13 (1024 bytes)
+
+Proof created [4.38600405s]
+Proof size [2.65625 kB]
+Proof verified [1.483045409s]

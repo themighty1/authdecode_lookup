@@ -1,0 +1,29 @@
+4K K == 9 (64 bytes)
+
+Proof created [1.503686398s]
+Proof size [8.65625 kB]
+Proof verified [815.781036ms]
+
+4K K == 10 (128 bytes)
+
+Proof created [1.389174844s]
+Proof size [4.65625 kB]
+Proof verified [621.680758ms]
+
+4K K == 11 (256 bytes)
+
+Proof created [1.484006759s]
+Proof size [2.65625 kB]
+Proof verified [535.902538ms]
+
+4K K == 12 (512 bytes)
+
+Proof created [1.727581009s]
+Proof size [1.65625 kB]
+Proof verified [518.060752ms]
+
+4K K == 13 (1024 bytes)
+
+Proof created [2.274950992s]
+Proof size [1.125 kB]
+Proof verified [459.240262ms]

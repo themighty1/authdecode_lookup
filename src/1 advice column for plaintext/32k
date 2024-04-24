@@ -1,0 +1,41 @@
+32K K == 9 (64 bytes)
+
+Proof created [8.970299883s]
+Proof size [63.96875 kB]
+Proof verified [5.527809579s]
+
+32K K == 10 (128 bytes)
+
+Proof created [7.845828534s]
+Proof size [32.15625 kB]
+Proof verified [4.093834047s]
+
+32K K == 11 (256 bytes)
+
+Proof created [7.751696775s]
+Proof size [16.46875 kB]
+Proof verified [3.68252039s
+
+32K K == 12 (512 bytes)
+
+Proof created [7.361583253s]
+Proof size [8.5625 kB]
+Proof verified [3.290905576s]
+
+32K K == 13 (1024 bytes)
+
+Proof created [7.655584934s]
+Proof size [4.65625 kB]
+Proof verified [2.94915997s]
+
+32K K == 14 (2048 bytes)
+
+Proof created [8.458139587s]
+Proof size [2.65625 kB]
+Proof verified [2.908283234s]
+
+32K K == 15 (4096 bytes)
+
+Proof created [11.04256138s]
+Proof size [1.65625 kB]
+Proof verified [2.603611574s]
