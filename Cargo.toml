@@ -6,10 +6,10 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-halo2_middleware = { git = "https://github.com/privacy-scaling-explorations/halo2", default-features = false}
-halo2_backend = { git = "https://github.com/privacy-scaling-explorations/halo2", default-features = false}
-halo2_frontend = { git = "https://github.com/privacy-scaling-explorations/halo2", default-features = false}
-halo2_proofs = { git = "https://github.com/privacy-scaling-explorations/halo2", default-features = false}
+halo2_middleware = { git = "https://github.com/privacy-scaling-explorations/halo2", default-features = false, rev = "9eedeb5d"}
+halo2_backend = { git = "https://github.com/privacy-scaling-explorations/halo2", default-features = false, rev = "9eedeb5d"}
+halo2_frontend = { git = "https://github.com/privacy-scaling-explorations/halo2", default-features = false, rev = "9eedeb5d"}
+halo2_proofs = { git = "https://github.com/privacy-scaling-explorations/halo2", default-features = false, rev = "9eedeb5d"}
 
 halo2curves = { version = "0.6.0", default-features = false }
 rand_core = { version = "0.6", default-features = false, features = ["getrandom"] }

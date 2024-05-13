@@ -1,3 +1,6 @@
+#![allow(unused_imports)]
+#![allow(dead_code)]
+#![allow(private_interfaces)]
 use core::panic;
 use std::time::Instant;
 
@@ -32,16 +35,6 @@ use halo2_proofs::{
 use rand::thread_rng;
 
 use crate::{circuit_instance, VerifierError, K};
-
-/// Unzips a slice of pairs, returning items corresponding to choice
-pub fn choose<T: Clone>(items: &[[T; 2]], choice: &[bool]) -> Vec<T> {
-    assert!(items.len() == choice.len(), "arrays are different length");
-    items
-        .iter()
-        .zip(choice)
-        .map(|(items, choice)| items[*choice as usize].clone())
-        .collect()
-}
 
 pub fn verification_key(params: ParamsKZG<Bn256>) -> VerifyingKey<G1Affine> {
     // It is safe to `unwrap` since we are inputting deterministic params and circuit.
@@ -95,35 +88,4 @@ where
     }
 
     Ok(())
-}
-
-/// Converts BE bytes into bits in MSB-first order, left-padding with zeroes
-/// to the nearest multiple of 8.
-pub fn u8vec_to_boolvec(v: &[u8]) -> Vec<bool> {
-    let mut bv = Vec::with_capacity(v.len() * 8);
-    for byte in v.iter() {
-        for i in 0..8 {
-            bv.push(((byte >> (7 - i)) & 1) != 0);
-        }
-    }
-    bv
-}
-
-/// Converts BE bytes into bits in MSB-first order without padding,
-pub fn u8vec_to_boolvec_no_pad(v: &[u8]) -> Vec<bool> {
-    let mut padded = u8vec_to_boolvec(v);
-    while !padded.is_empty() {
-        if !padded.first().unwrap() {
-            // Remove the leading zero.
-            padded.remove(0);
-        } else {
-            break;
-        }
-    }
-
-    if padded.is_empty() {
-        // The input was zero.
-        return vec![false];
-    }
-    padded
 }
